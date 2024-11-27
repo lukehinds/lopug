@@ -1,13 +1,13 @@
 ---
-# Profile showing off feature settings for DevSecOps London
+# Profile showing off feature settings for LoPug London
 version: v1
 type: profile
-name: devsecops-profile
-display_name: Example DevSecOps London Profile
+name: logpug-profile
+display_name: Example LoPug London Profile
 context:
   provider: github
 alert: "off"
-remediate: "off"
+remediate: "on"
 repository:
   - type: secret_scanning
     def:
